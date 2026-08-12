@@ -1,0 +1,27 @@
+# Cyril Baah
+
+> DevOps Engineer & Solutions Architect specializing in cloud-native infrastructure, CI/CD automation, and AI-driven DevOps practices.
+
+Cyril Baah is a DevOps Engineer and Solutions Architect focused on building scalable infrastructure, automating deployment pipelines, and ensuring reliable, high-performance systems. His work spans cloud-native solutions and CI/CD pipelines across AWS, Azure, and Google Cloud, with a growing focus on integrating AI into DevOps operations (MLOps, intelligent automation).
+
+## Skills
+
+- **DevOps & Cloud Infrastructure**: AWS, GCP, Azure, Docker, Kubernetes, Infrastructure as Code (Terraform, Pulumi), CI/CD (Jenkins, CircleCI, Azure DevOps), microservices architecture
+- **Solution Architecture & Design**: Distributed systems design, security architecture (IAM, encryption), event-driven architecture, database architecture (SQL, NoSQL), cloud storage & data management
+- **AI & Machine Learning for DevOps**: Python automation and scripting, Kubernetes AI pipelines, database automation
+
+## Volunteer Experience
+
+Community and Project Engagement Volunteer, Tech4good Africa (January 2025) — supported the planning and execution of community-centered initiatives and projects.
+
+## Credentials
+
+- [Credly badges](https://www.credly.com/users/cyril-baah/)
+- [LinkedIn certifications](https://www.linkedin.com/in/cyril-baah/details/certifications/)
+
+## Links
+
+- [Website](https://cyrilbaah.com/)
+- [LinkedIn](https://www.linkedin.com/in/cyril-baah)
+- [GitHub](https://github.com/CyrilBaah)
+- [Medium](https://medium.com/@cbaah123)

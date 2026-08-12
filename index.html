@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <!-- Google Fonts -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Archivo:wght@700&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -27,8 +27,9 @@
         <div class="container">
             <div class="nav-container">
                 <a href="#" class="logo">Cyril<span>Baah</span></a>
-                <button class="mobile-toggle" id="mobile-toggle">
-                    <i class="fas fa-bars"></i>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu"
+                    aria-expanded="false" aria-controls="nav-list">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
                 </button>
                 <ul class="nav-list" id="nav-list">
                     <li><a href="#home" class="nav-link active">Home</a></li>
@@ -57,20 +58,21 @@
                     </p>
                     <div class="btn-group">
                         <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                        <a href="#projects" class="btn btn-outline">View My Work</a>
+                        <a href="https://github.com/CyrilBaah" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-outline">View My Work</a>
                     </div>
                     <!-- <div class="social-links">
-                        <a href="https://linkedin.com/in/cyril-baah" target="_blank" title="LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
+                        <a href="https://linkedin.com/in/cyril-baah" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                         </a>
-                        <a href="https://github.com/CyrilBaah" target="_blank" title="GitHub">
-                            <i class="fab fa-github"></i>
+                        <a href="https://github.com/CyrilBaah" target="_blank" rel="noopener noreferrer" title="GitHub">
+                            <i class="fab fa-github" aria-hidden="true"></i>
                         </a>
-                        <a href="https://www.kaggle.com/baahcy" target="_blank" title="Kaggle">
-                            <i class="fab fa-kaggle"></i>
+                        <a href="https://www.kaggle.com/baahcy" target="_blank" rel="noopener noreferrer" title="Kaggle">
+                            <i class="fab fa-kaggle" aria-hidden="true"></i>
                         </a>
-                        <a href="https://medium.com/@cbaah123" target="_blank" title="Kaggle">
-                            <i class="fab fa-medium"></i>
+                        <a href="https://medium.com/@cbaah123" target="_blank" rel="noopener noreferrer" title="Kaggle">
+                            <i class="fab fa-medium" aria-hidden="true"></i>
                         </a>
                     </div> -->
 
@@ -82,19 +84,19 @@
                     <div class="hero-stats">
                         <div class="stat-item">
                             <div class="stat-number">
-                                <i class="stat-icon fas fa-code-branch"></i>4+
+                                <i class="stat-icon fas fa-code-branch" aria-hidden="true"></i>4+
                             </div>
                             <div class="stat-label">Years in DevOps</div>
                         </div>
                         <div class="stat-item">
                             <div class="stat-number">
-                                <i class="stat-icon fas fa-chart-line"></i>50+
+                                <i class="stat-icon fas fa-chart-line" aria-hidden="true"></i>50+
                             </div>
                             <div class="stat-label">Pipelines</div>
                         </div>
                         <div class="stat-item">
                             <div class="stat-number">
-                                <i class="stat-icon fas fa-certificate"></i>5+
+                                <i class="stat-icon fas fa-certificate" aria-hidden="true"></i>5+
                             </div>
                             <div class="stat-label">Certifications</div>
                         </div>
@@ -104,7 +106,7 @@
         </div>
         <a href="#about" class="scroll-down">
             <span>Scroll Down</span>
-            <i class="scroll-icon fas fa-chevron-down"></i>
+            <i class="scroll-icon fas fa-chevron-down" aria-hidden="true"></i>
         </a>
     </section>
 
@@ -118,7 +120,8 @@
             <div class="about-container">
                 <div class="about-image fade-in">
                     <div class="about-img-container">
-                        <img src="./assets/stock-2.jpg" alt="About Image" class="about-img" />
+                        <img src="./assets/stock-2.jpg" alt="Cyril at work on infrastructure and automation projects"
+                            class="about-img" loading="lazy" />
                     </div>
                 </div>
                 <div class="about-content fade-in">
@@ -133,7 +136,7 @@
                     <div class="about-features">
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <i class="fas fa-tools"></i>
+                                <i class="fas fa-tools" aria-hidden="true"></i>
                             </div>
                             <div class="feature-text">
                                 <h4>DevOps Engineering</h4>
@@ -142,7 +145,7 @@
                         </div>
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <i class="fas fa-microchip"></i>
+                                <i class="fas fa-microchip" aria-hidden="true"></i>
                             </div>
                             <div class="feature-text">
                                 <h4>AI-Driven Automation</h4>
@@ -151,7 +154,7 @@
                         </div>
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <i class="fas fa-network-wired"></i>
+                                <i class="fas fa-network-wired" aria-hidden="true"></i>
                             </div>
                             <div class="feature-text">
                                 <h4>Cloud & Infrastructure</h4>
@@ -160,7 +163,7 @@
                         </div>
                         <div class="feature-item">
                             <div class="feature-icon">
-                                <i class="fas fa-chart-line"></i>
+                                <i class="fas fa-chart-line" aria-hidden="true"></i>
                             </div>
                             <div class="feature-text">
                                 <h4>Monitoring & Optimization</h4>
@@ -229,7 +232,7 @@
                 <div class="skill-card fade-in">
                     <div class="skill-header">
                         <div class="skill-icon">
-                            <i class="fas fa-cogs"></i>
+                            <i class="fas fa-cogs" aria-hidden="true"></i>
                         </div>
                         <div>
                             <h3 class="skill-title">DevOps & Cloud Infrastructure</h3>
@@ -237,12 +240,12 @@
                         </div>
                     </div>
                     <div class="skill-list">
-                        <div class="skill-item"><i class="fas fa-cloud"></i> AWS, GCP, Azure</div>
-                        <div class="skill-item"><i class="fab fa-docker"></i> Docker, Kubernetes</div>
-                        <div class="skill-item"><i class="fa-solid fa-screwdriver-wrench"></i> Infrastructure as Code(Terraform, Pulumi)</div>
-                        <div class="skill-item"><i class="fas fa-cogs"></i> CI/CD ( Jenkins, CircleCI, Azure DevOps)</div>
-                        <div class="skill-item"><i class="fas fa-tools"></i> Automation tools </div>
-                        <div class="skill-item"><i class="fas fa-cogs"></i> Microservices Architecture</div>
+                        <div class="skill-item"><i class="fas fa-cloud" aria-hidden="true"></i> AWS, GCP, Azure</div>
+                        <div class="skill-item"><i class="fab fa-docker" aria-hidden="true"></i> Docker, Kubernetes</div>
+                        <div class="skill-item"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> Infrastructure as Code(Terraform, Pulumi)</div>
+                        <div class="skill-item"><i class="fas fa-cogs" aria-hidden="true"></i> CI/CD ( Jenkins, CircleCI, Azure DevOps)</div>
+                        <div class="skill-item"><i class="fas fa-tools" aria-hidden="true"></i> Automation tools </div>
+                        <div class="skill-item"><i class="fas fa-cogs" aria-hidden="true"></i> Microservices Architecture</div>
 
                     </div>
                 </div>
@@ -250,7 +253,7 @@
                 <div class="skill-card fade-in delay-1">
                     <div class="skill-header">
                         <div class="skill-icon">
-                            <i class="fas fa-sitemap"></i>
+                            <i class="fas fa-sitemap" aria-hidden="true"></i>
                         </div>
                         <div>
                             <h3 class="skill-title">Solution Architecture & Design</h3>
@@ -258,18 +261,18 @@
                         </div>
                     </div>
                     <div class="skill-list">
-                        <div class="skill-item"><i class="fas fa-code-branch"></i> Distributed Systems Design</div>
-                        <div class="skill-item"><i class="fas fa-lock"></i> Security Architecture (IAM, Encryption)</div>
-                        <div class="skill-item"><i class="fas fa-sitemap"></i> Event Driven Architecture</div>
-                        <div class="skill-item"><i class="fas fa-database"></i> Database Architecture (SQL, NoSQL)</div>
-                        <div class="skill-item"><i class="fas fa-cloud-upload-alt"></i> Cloud Storage & Data Management</div>
+                        <div class="skill-item"><i class="fas fa-code-branch" aria-hidden="true"></i> Distributed Systems Design</div>
+                        <div class="skill-item"><i class="fas fa-lock" aria-hidden="true"></i> Security Architecture (IAM, Encryption)</div>
+                        <div class="skill-item"><i class="fas fa-sitemap" aria-hidden="true"></i> Event Driven Architecture</div>
+                        <div class="skill-item"><i class="fas fa-database" aria-hidden="true"></i> Database Architecture (SQL, NoSQL)</div>
+                        <div class="skill-item"><i class="fas fa-cloud-upload-alt" aria-hidden="true"></i> Cloud Storage & Data Management</div>
                     </div>
                 </div>
     
                 <div class="skill-card fade-in delay-2">
                     <div class="skill-header">
                         <div class="skill-icon">
-                            <i class="fas fa-brain"></i>
+                            <i class="fas fa-brain" aria-hidden="true"></i>
                         </div>
                         <div>
                             <h3 class="skill-title">AI & Machine Learning for DevOps</h3>
@@ -277,9 +280,9 @@
                         </div>
                     </div>
                     <div class="skill-list">
-                        <div class="skill-item"><i class="fab fa-python"></i> Python (Automation & Scripting)</div>
-                        <div class="skill-item"><i class="fas fa-cloud"></i> Kubernetes AI Pipelines</div>
-                        <div class="skill-item"><i class="fas fa-database"></i> Database Automation</div>
+                        <div class="skill-item"><i class="fab fa-python" aria-hidden="true"></i> Python (Automation & Scripting)</div>
+                        <div class="skill-item"><i class="fas fa-cloud" aria-hidden="true"></i> Kubernetes AI Pipelines</div>
+                        <div class="skill-item"><i class="fas fa-database" aria-hidden="true"></i> Database Automation</div>
                     </div>
                 </div>
     
@@ -304,9 +307,9 @@
                         <div class="project-overlay">
                             <div class="project-overlay-content">
                                 <div class="project-links">
-                                    <a href="https://awtsyde.com/" target="_blank"
+                                    <a href="https://awtsyde.com/" target="_blank" rel="noopener noreferrer"
                                         class="project-link">
-                                        <i class="fas fa-external-link-alt"></i>
+                                        <i class="fas fa-external-link-alt" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>
@@ -331,12 +334,12 @@
                             <div class="project-overlay-content">
                                 <div class="project-links">
                                     <a href="https://www.wonchunii.com"
-                                        target="_blank" class="project-link">
-                                        <i class="fas fa-external-link-alt"></i>
+                                        target="_blank" rel="noopener noreferrer" class="project-link">
+                                        <i class="fas fa-external-link-alt" aria-hidden="true"></i>
                                     </a>
-                                    <a href="https://www.wonchunii.com" target="_blank"
+                                    <a href="https://www.wonchunii.com" target="_blank" rel="noopener noreferrer"
                                         class="project-link">
-                                        <i class="fab fa-github"></i>
+                                        <i class="fab fa-github" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>
@@ -363,13 +366,13 @@
                         <div class="project-overlay">
                             <div class="project-overlay-content">
                                 <div class="project-links">
-                                    <a href="https://oneengstructltd.com/" target="_blank"
+                                    <a href="https://oneengstructltd.com/" target="_blank" rel="noopener noreferrer"
                                         class="project-link">
-                                        <i class="fas fa-external-link-alt"></i>
+                                        <i class="fas fa-external-link-alt" aria-hidden="true"></i>
                                     </a>
                                     <a href=""
-                                        target="_blank" class="project-link">
-                                        <i class="fab fa-github"></i>
+                                        target="_blank" rel="noopener noreferrer" class="project-link">
+                                        <i class="fab fa-github" aria-hidden="true"></i>
                                     </a> 
                                 </div>
                             </div>
@@ -404,27 +407,27 @@
             <div class="certificates-container">
                 <div class="certificate-card fade-in">
                     <div class="certificate-image">
-                        <i class="certificate-icon fas fa-award"></i>
+                        <i class="certificate-icon fas fa-award" aria-hidden="true"></i>
                     </div>
                     <div class="certificate-content">
                         <h3 class="certificate-title">My Credly Badges</h3>
                         <p class="certificate-issuer">
-                            <i class="fas fa-certificate"></i> Credly
+                            <i class="fas fa-certificate" aria-hidden="true"></i> Credly
                         </p>
-                        <a href="https://www.credly.com/users/cyril-baah/" target="_blank" class="certificate-link">View
+                        <a href="https://www.credly.com/users/cyril-baah/" target="_blank" rel="noopener noreferrer" class="certificate-link">View
                             Credly Badges</a>
                     </div>
                 </div>
                 <div class="certificate-card fade-in delay-1">
                     <div class="certificate-image">
-                        <i class="certificate-icon fab fa-linkedin"></i>
+                        <i class="certificate-icon fab fa-linkedin" aria-hidden="true"></i>
                     </div>
                     <div class="certificate-content">
                         <h3 class="certificate-title">My Certificates I Posted on LinkedIn</h3>
                         <p class="certificate-issuer">
-                            <i class="fas fa-certificate"></i> All
+                            <i class="fas fa-certificate" aria-hidden="true"></i> All
                         </p>
-                        <a href="https://www.linkedin.com/in/cyril-baah/details/certifications/" target="_blank"
+                        <a href="https://www.linkedin.com/in/cyril-baah/details/certifications/" target="_blank" rel="noopener noreferrer"
                             class="certificate-link">View Certificate</a>
                     </div>
                 </div>
@@ -454,8 +457,8 @@
                             communication, and feedback loops. 
                         </p>
                     </div>
-                    <!-- <a href="https://bit.ly/unvsisaala" target="_blank" class="volunteer-link">
-                        <i class="fas fa-external-link-alt"></i> View Certificate
+                    <!-- <a href="https://bit.ly/unvsisaala" target="_blank" rel="noopener noreferrer" class="volunteer-link">
+                        <i class="fas fa-external-link-alt" aria-hidden="true"></i> View Certificate
                     </a> -->
                 </div>
             </div>
@@ -473,11 +476,11 @@
                 <div class="contact-info">
                     <div class="contact-item fade-in delay-1">
                         <div class="contact-icon">
-                            <i class="fab fa-medium"></i>
+                            <i class="fab fa-medium" aria-hidden="true"></i>
                         </div>
                         <div class="contact-details">
                             <h3>Medium</h3>
-                            <a href="https://medium.com/@cbaah123" target="_blank">medium.com/@cbaah123</a>
+                            <a href="https://medium.com/@cbaah123" target="_blank" rel="noopener noreferrer">medium.com/@cbaah123</a>
                         </div>
                     </div>
 
@@ -485,11 +488,11 @@
                 <div class="contact-info">
                     <div class="contact-item fade-in delay-2">
                         <div class="contact-icon">
-                            <i class="fab fa-github"></i>
+                            <i class="fab fa-github" aria-hidden="true"></i>
                         </div>
                         <div class="contact-details">
                             <h3>GitHub</h3>
-                            <a href="https://github.com/CyrilBaah" target="_blank">github.com/CyrilBaah</a>
+                            <a href="https://github.com/CyrilBaah" target="_blank" rel="noopener noreferrer">github.com/CyrilBaah</a>
                         </div>
                     </div>
 
@@ -498,12 +501,12 @@
                 <div class="contact-info">
                     <div class="contact-item fade-in delay-2">
                         <div class="contact-icon">
-                            <i class="fab fa-linkedin"></i>
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
                         </div>
                         <div class="contact-details">
                             <h3>LinkedIn</h3>
                             <a href="https://linkedin.com/in/cyril-baah"
-                                target="_blank">linkedin.com/in/cyril-baah</a>
+                                target="_blank" rel="noopener noreferrer">linkedin.com/in/cyril-baah</a>
                         </div>
                     </div>
                 </div>
@@ -523,14 +526,14 @@
                         reliable, high-performance systems for modern applications.
                     </p>
                     <div class="footer-social">
-                        <a href="https://linkedin.com/in/cyril-baah" target="_blank" class="footer-social-link">
-                            <i class="fab fa-linkedin-in"></i>
+                        <a href="https://linkedin.com/in/cyril-baah" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                         </a>
-                        <a href="https://github.com/CyrilBaah" target="_blank" class="footer-social-link">
-                            <i class="fab fa-github"></i>
+                        <a href="https://github.com/CyrilBaah" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+                            <i class="fab fa-github" aria-hidden="true"></i>
                         </a>
-                        <a href="https://medium.com/@cbaah123" target="_blank" class="footer-social-link">
-                            <i class="fab fa-medium"></i>
+                        <a href="https://medium.com/@cbaah123" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+                            <i class="fab fa-medium" aria-hidden="true"></i>
                         </a>
                         
                     </div>
@@ -540,22 +543,22 @@
                     <h4>Quick Links</h4>
                     <ul>
                         <li>
-                            <a href="#home"><i class="fas fa-chevron-right"></i> Home</a>
+                            <a href="#home"><i class="fas fa-chevron-right" aria-hidden="true"></i> Home</a>
                         </li>
                         <li>
-                            <a href="#about"><i class="fas fa-chevron-right"></i> About</a>
+                            <a href="#about"><i class="fas fa-chevron-right" aria-hidden="true"></i> About</a>
                         </li>
                         <li>
-                            <a href="#skills"><i class="fas fa-chevron-right"></i> Skills</a>
+                            <a href="#skills"><i class="fas fa-chevron-right" aria-hidden="true"></i> Skills</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#projects"><i class="fas fa-chevron-right" aria-hidden="true"></i> Projects</a>
+                        </li> -->
+                        <li>
+                            <a href="#certificates"><i class="fas fa-chevron-right" aria-hidden="true"></i> Certificates</a>
                         </li>
                         <li>
-                            <a href="#projects"><i class="fas fa-chevron-right"></i> Projects</a>
-                        </li>
-                        <li>
-                            <a href="#certificates"><i class="fas fa-chevron-right"></i> Certificates</a>
-                        </li>
-                        <li>
-                            <a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a>
+                            <a href="#contact"><i class="fas fa-chevron-right" aria-hidden="true"></i> Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -563,14 +566,14 @@
                     <h4>GitHub Contributions</h4>
                     <p>My activity across repositories and projects</p>
                     <div class="github-contrib-container">
-                        <a href="https://github.com/CyrilBaah" target="_blank">
+                        <a href="https://github.com/CyrilBaah" target="_blank" rel="noopener noreferrer">
                             <img src="https://ghchart.rshah.org/0070f3/CyrilBaah"
-                                alt="Cyril Baah's GitHub Contributions" width="100%" />
+                                alt="Cyril Baah's GitHub Contributions" width="100%" loading="lazy" />
                         </a>
                     </div>
                     <p class="github-follow-text">
-                        <a href="https://github.com/CyrilBaah" target="_blank" class="github-follow-link">
-                            <i class="fab fa-github"></i> Follow my work on GitHub
+                        <a href="https://github.com/CyrilBaah" target="_blank" rel="noopener noreferrer" class="github-follow-link">
+                            <i class="fab fa-github" aria-hidden="true"></i> Follow my work on GitHub
                         </a>
                     </p>
                 </div>
@@ -585,8 +588,8 @@
     </footer>
 
     <!-- Back to Top Button -->
-    <a href="#" class="back-to-top" id="backToTop">
-        <i class="fas fa-arrow-up"></i>
+    <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
     </a>
 
     <!-- JavaScript -->
